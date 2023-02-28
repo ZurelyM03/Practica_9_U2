@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    background-color:#b4f8fc;
+    color: #6b6b6b;
+    padding: 15px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #8bcdbc;
+    color: #0a0a29;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #b4f8fc;
+}
+.aside {
+    background-color: #8bcdbc;
+    padding: 15px;
+    color: #04041f;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.footer {
+    background-color: #b4f8fc;
+    color: 6b6b6b;;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 766px) {
+        /* For mobile phones: */
+        [class*="col-"] {
+            width: 100%;
+        }
+    }
+
+    /* For width smaller than 400px: */
+    .aside {
+    background-repeat: no-repeat;
+    background-image: url("img/Abejita.jpg" );
+    }
+
+    /* For width 400px and larger: */
+    @media only screen and (min-width: 1100px) {
+    .aside {
+       background-image: url("img/Ajolote.jpg"); 
+    }
+    }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>U2</h1>
+</div>
+
+<div class="row">
+
+<div class="col-3 menu">
+  <ul>
+   
+  </ul>
+  <li><a href="Practica 1.html">Practica 1</a></li>
+  <li><a href="Pract 1.html">Practica 2</a></li>
+    <li><a href="Pract 2.html">Practica 3</a></li>
+    <li><a href="Pract 3.html">Practica 4</a></li>
+    <li><a href="Pract 4.html"> Practica 5</a></li>
+    <li><a href="Pract 5.html"> Practica 6</a></li>
+    <li><a href="Pract 6.html"> Practica 7</a></li>
+    <li><a href="Practica6.1.html"> Practica 8</a></li>
+    <li><a href="Pract 7.html"> Practica 9</a></li>
+    <li><a href="Pract 8.html"> Practica 10</a></li>
+    <li><a href="Tokio1.html"> Practica 11</a></li>
+    <li><a href="Pract 9.html"> Practica 12</a></li>
+    
+</div>
+
+<div class="col-6">
+  <h1>Mi CV</h1>
+  
+  
+  <b>Fotograf&iacute;a</b><br><br>
+  <center> <img src="img/Snapchat-1652152585.jpg"  height="200" width="200"  </a> </center>
+  <BR><BR>
+
+      <b>Direcci&oacute;n</b><br>
+      <center> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d943.9646201411413!2d-97.06526777082495!3d18.84895929920117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c4fd3bcacc2471%3A0x9823290f28c78e26!2sC.%208%20Pte.%20106%2C%20El%20Calvario%2C%2094460%20Ixtaczoquitl%C3%A1n%2C%20Ver.!5e0!3m2!1ses-419!2smx!4v1676949210478!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </center>
+      <BR><BR>
+          
+          <b>Video</b><br>
+          <center><video src="img/VID_20230220_202727937.mp4"  autoplay muted loop controls widt="640" height="480"></video> </center>
+          <BR><BR>
+
+
+              <div align="center"><h2><b>Datos</b></h2></div><br>
+
+              <h2><b>Datos personales</b></h2>         
+  <ul>
+      <li>Fecha de nacimiento:<b> 23/03/2002</b></li>
+      <li>Nombre completo:<b>Zurely Mendoza Vazquez </b></li>
+      <li>Fecha de nacimiento:<b>23/03/2002</b></li>
+      <li>Lugar de nacimiento: <b>Orizaba</b></li>
+
+      </ul>
+      <BR><BR>
+
+      <h2><b>Formaci&oacute;n acad&eacute;mica</b></h2>
+  
+  <ul>
+      <Li>2020-2024:<b>Tecnologico Nacional de Mexico campus Orizaba.</b> </li> 
+      <li>2017-2020:<b>Escuela de Bachillares Vespertina de Orizaba</b></li>
+      <li>2009-2015:<b>Escuela primaria Lic. Benito Juarez Garcia.</b> </li>
+
+  </UL>
+
+  <BR><BR>
+      <h2><b>Experiencia laboral</b></h2>
+  
+  <ul>
+      <li>2020-2021:<b>Programadora junior.</b></li>
+      <li>2021-2022: <b>Bases de datos en Chedraui.</b></li>
+      <li>2022-2023:<b>Progaradora de sitios web. </b> </li>
+
+      </ul>
+
+
+</div>
+
+<div class="col-3 right">
+  <div class="aside">
+    <br> <br> <br>  <br>
+    <br> <br> <br>  <br>
+    <p></p>
+
+    <br> <br> <br>  <br>
+  </div>
+</div>
+
+</div>
+
+<div class="footer">
+  <p>Cambiar el tama&ntilde;o de la ventana del navegador para ver c&oacute;mo responde el contenido al redimensionamiento.</p>
+</div>
+
+</body>
+</html>

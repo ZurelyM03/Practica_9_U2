@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro- Mi web</title>
+</head>
+<style>
+    body{background: rgb(108, 166, 253);
+        margin:0
+    }
+    .form{
+        width:340px;
+        height: 920px;
+        background:#ededf0;
+        border-radius:8px;
+        box-shadow:0 0 40px -10px #000;
+        margin:calc(50vh - 220px) auto;
+        padding:20px 30px;
+        max-width:calc(100vw - 40px);
+        box-sizing:border-box;
+        font-family:'Times New Roman', Times, serif;
+        position:relative
+    }
+    h2{
+        margin:10px 0;
+        padding-bottom:10px;
+        width:180px;
+        color:#070707;
+        border-bottom:3px solid #5e4af5
+    }
+    input{
+        width:100%;
+        padding:10px;
+        box-sizing:border-box;
+        background:none;
+        outline:#000;
+        resize:none;
+        border:0;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        transition:all .3s;
+        border-bottom:2px solid #bebebe
+    }
+    
+    p:before{
+        content:attr(type);
+        display:block;
+        margin:28px 0 0;font-size:16px;
+        color:#000;
+    }
+    button{
+        float:right;
+        padding:8px 12px;
+        margin:8px 0 0;
+        font-family:cursive;
+        border:2px solid #9153ee;
+        background:0;color:#101010;
+        cursor:pointer;
+        transition:all .3s;
+        border-radius: 15px;
+    }
+
+    
+    button:hover{
+        background: rgb(241, 145, 254);         /* Cuando el mause pase por el boton, el color camabia  */
+        color:#0c0c0c                          /* Cambiar color de letra del boton */
+    }
+
+
+    div{
+        content:'Hi';
+        position:absolute;
+        bottom:-15px;right:-20px;
+        background:#0a0a0a;
+        color:#f9f7f7;
+        width:320px;
+        padding:16px 4px 16px 0;
+        border-radius:6px;
+        font-size:13px;
+        box-shadow:10px 10px 40px -14px #ffffff
+    }
+    span{
+        margin:0 5px 0 15px
+    }
+    
+    </style>
+      </head>
+      <body>
+        <form action="" method="get" class="form">
+            <h2>Contactanos!</h2>
+            <p type="Nombre:"><input maxlength="50" placeholder="Escribe tu nombre aquí..."></input></p>
+            <p type="Apellidos:"><input maxlength="50" placeholder="Escribe tus Apellidos aquí..."></input></p>
+            <p type="Sexo"> 
+            <input type="radio" name="Genero" value="Maculino" checked> Masculino </p>
+            <input type="radio" name="Genero" value="Femenino"> Femenino <br>
+            
+            <p>Poblaci&oacute;n</p>
+                <select name="Poblaci&on"">
+                    <option value="Poblacion"> Poblaci&oacute;n </option>
+                   <option value="Orizaba"> Orizaba </option>
+                   <option value="Cordoba"> Córdoba </option> 
+                   <option value="Xalapa"> Xalapa </option>
+                   <option value="Veracruz"> Veracruz </option>
+                </select>
+
+            <input type="checkbox" checked name="Op1" value="Deseo">
+            Deseo recibir información sobre novedades y ofertas.<br>
+             
+            <p type="Email:"><input placeholder="Email para que te contactemos.."></input></p>
+            <p type="Mensaje:"><input placeholder="Qu&eacute; deseas saber..."></input></p>
+            <input type="checkbox" name="Op1" value="Declaracion">
+            Declaro haber le&iacute;do y aceptar las condiciones generales del programa y la normativa sabre proteccion de datos <br>
+            <button class="button" >Enviar</button>
+            <div>
+              <span ></span>263846384
+              <span ></span> Zurely@gmail.com
+            </div>
+          </form>
+
+
+       </body>
+
+</html>
